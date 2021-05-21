@@ -23,18 +23,10 @@ let createNewTask = event => {
 };
 
 let appendNewTask = task => {
-  if (newTask === true){
-    document.getElementById("tasks").appendChild(task);
-  } else {
-    document.getElementById("tasks").remove(task);
-  }
-  
+  document.getElementById("tasks").appendChild(task)
 };
 
-//  function removeFromList (newTask) {
- // if (newTask === true){
-  //  document.getElementById("tasks").remove(newTask);
 
 
-  //}
-//}
+
+
